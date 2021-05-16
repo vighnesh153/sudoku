@@ -1,7 +1,10 @@
+import Board from "./Board";
+
 function App() {
   return (
     <div>
-      Hello World
+      <h1 className={'title'}>Sudoku</h1>
+      <Board />
     </div>
   );
 }
