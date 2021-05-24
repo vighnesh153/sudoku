@@ -29,7 +29,8 @@ code {
   height: var(--board-dimension);
   margin: 0 auto;
 
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .row {
@@ -44,7 +45,8 @@ code {
   display: grid;
   place-items: center;
 
-  border: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 
   font-size: 1.5rem;
 }

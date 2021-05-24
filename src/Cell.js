@@ -1,22 +1,9 @@
 export default class Cell {
-  #value;
-  #color;
-
-  get color() {
-    return this.#color;
-  }
-
-  get value() {
-    return this.#value;
-  }
-
-  set value(value) {
-    this.#value = value;
-  }
+  value;
+  color;
 
   constructor({ value, fixed }) {
-    this.#value = value || '--';
-    this.#color = fixed ? 'red' : 'black';
+    this.value = value || '--';
+    this.color = fixed ? 'red' : 'black';
   }
-
 };
